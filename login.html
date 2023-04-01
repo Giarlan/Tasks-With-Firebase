@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>TasksList</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row h-100">
+
+            <div class="col-md-8">
+                <div class="logo">
+                    <a href="index.html"><img src="./img/tasks-note.png" alt="Logo" width="60"></a>
+                </div>
+                <div class="h-100 align-items-center row">
+                    <div class="app-form login-box">
+                        <h2>Signin to TasksList</h2>
+                        <small>LogIn by using your email and password.</small>
+                        <form autocomplete="off" class="form-group" id="login-form">                           
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control" placeholder="E-mail" id="login-email" required>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-unlock-alt"></i></span>
+                                <input type="password" class="form-control" placeholder="password" id="login-password" required minlength="6">
+                            </div>
+                            
+                            <button type="submit" class="app-btn app-btn-fill">LogIn</button>
+                            <div class="error" id="loginError"></div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 app- info">
+                <div class="h-100 row align-items-center">
+                    <div class="app-info-details">
+                        <h3>Hey there!</h3>
+                        <h5>Enter your personal details and enjoy this experience</h5>                       
+
+                        <a href="index.html" class="app-btn">
+                            <i class="fas fa-plus"></i>Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.jsSS"></script>
+
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>

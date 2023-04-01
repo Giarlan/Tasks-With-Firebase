@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Tasks List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row h-100">
+
+            <div class="col-md-4 app- info">
+                <div class="logo position-absolute">
+                    <a href="index.html"><img src="./img/tasks-note.png" alt="Logo" width="60"></a>
+                </div>
+
+                <div class="h-100 row align-items-center">
+                    <div class="app-info-details">
+                        <h3>Wellcome Back</h3>
+                        <h5>Organize all your tasks at the same place</h5>
+                        <div class="date-time">
+                            <span id="date">date</span>
+                            <span id="month">month</span>
+                            <span id="year">year</span>
+                            <span id="weekday">weekday</span>
+                        </div>
+
+                        <a href="login.html" class="app-btn">
+                            <i class="fas fa-sign-in-alt"></i>Sign In
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="h-100 align-items-center row">
+                    <div class="app-form">
+                        <h2>Create Account</h2>
+                        <small>Use your details for the registration!</small>
+                        <form autocomplete="off" class="form-group" id="signup-form">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control" placeholder="E-mail" id="email" required>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-unlock-alt"></i></span>
+                                <input type="password" class="form-control" placeholder="password" id="password" required minlength="6">
+                            </div>
+                            
+                            <button type="submit" class="app-btn app-btn-fill">
+                                <i class="fas fa-plus"></i>Sign Up
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.jsSS"></script>
+
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
