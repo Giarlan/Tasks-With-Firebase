@@ -17,7 +17,7 @@ html, body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(113, 81, 165, 0.62);
     box-shadow: 0 8px 36px rgb(67, 67, 67 / 6%);
     border-radius: 15px;
     height: 80vh;
@@ -26,4 +26,143 @@ html, body {
 
 .logo {
     position: absolute;
+}
+
+.app-info {
+    background: url(../img/background-degrade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.app-info-details {
+    color: rgb(72, 37, 111);
+}
+
+.app-info-details h3 {
+    font-weight: 600;
+}
+
+.app-form {
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.app-form h2 {
+    font-weight: bold;
+    color: rgb(72, 37, 111);
+}
+
+.app-form small {
+    color: #fff;
+}
+
+.app-btn {
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    display: inline-block;
+    min-width: 150px;
+    border-radius: 24px;    
+    margin-top: 30px;
+    letter-spacing: 0.4px;
+    transition: all ease 0.4s;
+}
+
+.app-btn-fill {
+    color: #fff;
+    background: linear-gradient(to right, #3f2feb, rgb(129, 110, 192));
+}
+
+.app-btn:hover {
+    color: #fff;
+    background: linear-gradient(to right, rgb(129, 110, 192), #3f2feb);
+    border: 1px solid transparent;
+}
+
+form.form-group {
+    margin-top: 30px;
+}
+
+form.form-group input {
+    background: #f5f8f7;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    outline: 0;
+    box-sizing: none;
+}
+
+form.form-group span {
+    border: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-sizing: none;
+    background: #fff;
+}
+
+.input-group-text {
+    background: #f6f8f7;
+    color: #aaa;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user-info {
+    padding: 30px;
+    background: #fafafa;
+}
+
+.user-info .h-100 {
+    align-items: flex-end;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.todo-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    margin: 5px;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.todo-box button {
+    color: red;
+    border: hidden;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.item-input input {
+    width: 80%;    
 }
