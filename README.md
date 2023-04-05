@@ -11,3 +11,17 @@ Tasks List Using Firebase Storage
 ![tela2](https://user-images.githubusercontent.com/108962578/229967360-a99a11dc-cd68-45ad-8865-4eb546c5b4c2.PNG)
 
 + Tasks page:
+![tela3](https://user-images.githubusercontent.com/108962578/229967614-96598307-8fbc-404d-9027-325b3bccecc2.PNG)
+
+### Features
++ Sign up                 
+- [X] Name
+- [X] Email
+- [X] Password
+
++ Login
+- [X] Email
+- [X] Password
+
++ Login
+- [X] Tasks field
