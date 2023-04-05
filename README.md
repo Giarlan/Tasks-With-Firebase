@@ -23,8 +23,11 @@ Tasks List Using Firebase Storage
 - [X] Email
 - [X] Password
 
-+ Login
++ Tasks List
 - [X] Tasks field
 
+### Technologies Used
++ HTM|CSS|JavaScript|BootStrap
+
 ### About the project
-Its a project of tasks list using the Firebase to store users data, but I'm still trying to implement the script that makes the app to connect with firestore by using users authentication. That's a big challenge for me, because of I don't have to mutch know-how about this issue yet. But, I'll get it!
+This is a project of tasks list using the Firebase to store users data, but I'm still trying to implement the script that makes the app to connect with firestore by using users authentication. That's a challenge for me, because of I don't have to mutch know-how about this issue yet. But, I'll get it!
